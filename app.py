@@ -29,7 +29,7 @@ def call_gemini_api(prompt, response_schema=None):
     """
     Makes a call to the Gemini API for text generation or structured data.
     """
-    api_key = "AIzaSyBSpvtj1KLxUwzY9s_4MwfixO_PL4o52Ss"
+    api_key = "<Gemini key>"
     api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
     headers = {'Content-Type': 'application/json'}
